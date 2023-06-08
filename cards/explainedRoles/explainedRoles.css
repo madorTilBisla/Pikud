@@ -1,0 +1,46 @@
+html, body {
+    background-image: url(../../assets/BACKGROUNDAsset\ 1.png);
+    background-size: cover;
+}
+
+#symbol {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.btns {
+    width: 40%;
+    margin-top: 10%;
+}
+
+#explain-container {
+    width: 80%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#explain-text {
+    position: absolute;
+    width: 90%;
+    top: 47%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+#close-btn {
+    position: absolute;
+    width: 12%;
+    top: 26%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+}
+
+#go-back-to-roles {
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 1%;
+}

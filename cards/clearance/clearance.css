@@ -1,0 +1,91 @@
+html, body {
+    background-image: url(../../assets/BACKGROUNDAsset\ 1.png);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+@import url(//db.onlinewebfonts.com/c/8c4435757fb635a4d13aced9b38d5e8a?family=Aduma);
+
+@font-face {font-family: "Aduma"; src: url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.eot"); src: url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.woff") format("woff"), url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8c4435757fb635a4d13aced9b38d5e8a.svg#Aduma") format("svg"); }
+
+* {
+    font-family: "aduma";
+}
+
+.my-checkbox {
+    margin: 1%;
+    font-size: 4vh;
+}
+
+#list {
+    position: absolute;
+    top: 67%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+#container{
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#symbol {
+    width: 45%;
+    margin-top: 5%;
+}
+
+#go-back-to-new {
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 1%;
+}
+
+.boxes {
+    width: 7vw;
+    margin-bottom: 3vw;
+}
+
+#code-container {
+    position: absolute;
+    width: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #7e9ac8;
+    text-align: center;
+    border-style: dashed;
+    z-index: 3;
+    display: none;
+    border-radius: 2.5vh;
+}
+
+.checked {
+    filter: grayscale(80%);
+}
+
+#blur-div {
+    background-color: wheat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 2;
+    top: 0;
+    display: none;
+}
+
+#clearance-text {
+    text-align: center;
+    position: absolute;
+    color: black;
+    top: 13%;
+    font-size: 2.6vh;
+    direction: rtl;
+    margin: 5%;
+}

@@ -1,0 +1,40 @@
+html, body {
+    background-image: url(../../assets/BACKGROUNDAsset\ 1.png);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#symbol {
+    width: 45%;
+    margin-top: 5%;
+}
+
+#carouselExample {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.anim {
+    width: 20%;
+    rotate: 20deg;
+    animation: movingSymbols 1s ease-in-out;
+}
+
+#anim-container {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    gap: 30%;
+}
+
+#go-back-to-new {
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 1%;
+}

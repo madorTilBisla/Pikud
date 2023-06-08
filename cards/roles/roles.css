@@ -1,0 +1,36 @@
+@keyframes showingNewBtns {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+html, body {
+    background-image: url(../../assets/BACKGROUNDAsset\ 1.png);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+#symbol {
+    width: 45%;
+    margin-top: 5%;
+}
+
+.btns {
+    margin: 4%;
+    width: 110%;
+}
+
+#new-btns {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    animation: showingNewBtns 1.5s forwards;
+    animation-delay: 0.2s;
+}

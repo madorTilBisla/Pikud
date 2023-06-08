@@ -1,0 +1,148 @@
+
+@keyframes movingPikudPalm {
+    from {
+        left: 110%;
+        top: -20%;
+    }
+
+    to {
+        left: -45%;
+        top: 10%;
+    }
+}
+
+@keyframes movingPikudCast {
+    from {
+        left: 110%;
+        top: 10%;
+    }
+
+    to {
+        left: -52%;
+        top: 31%;
+    }
+}
+
+@keyframes movingPikudVideo {
+    from {
+        left: 110%;
+        top: 20%;
+    }
+
+    to {
+        left: -20%;
+        top: 45%;
+    }
+}
+
+html, body {
+    background-image: url(../../assets/BACKGROUNDAsset\ 1.png);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;   
+ 
+}
+
+#go-back-to-main {
+    position: absolute;
+    width: 10%;
+    right: 0;
+    top: 1%;
+}
+
+#btns {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btns {
+    margin-top: 20%;
+}
+
+#pikud-palm {
+    position: absolute;
+    width: 170%;
+}
+
+#pikud-palm-btn {
+    position: absolute;
+    top: 28.6%;
+    width: 170%;
+    height: 12%;
+    rotate: -29.5deg;
+    left: 19%;
+}
+
+#pikud-div {
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    left: 110%;
+    top: -20%;
+    rotate: 10deg;
+    animation: movingPikudPalm 1.5s forwards;
+}
+
+#pikud-cast {
+    position: absolute;
+    width: 170%;
+}
+
+#pikud-cast-div {
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    left: 110%;
+    top: 31%;
+    rotate: 9.5deg;
+    animation: movingPikudCast 1.5s forwards;
+    animation-delay: 0.3s;
+}
+
+#pikud-cast-btn {
+    position: absolute;
+    top: 25.6%;
+    width: 170%;
+    height: 12%;
+    rotate: -29deg;
+    left: 25%;
+}
+
+#pikud-video {
+    position: absolute;
+    width: 170%;
+}
+
+#pikud-video-div {
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    left: 110%;
+    top: 45%;
+    rotate: 9.5deg;
+    animation: movingPikudVideo 1.5s forwards;
+    animation-delay: 0.6s;
+}
+
+#pikud-video-btn {
+    position: absolute;
+    top: 49.9%;
+    width: 170%;
+    height: 12%;
+    rotate: -29deg;
+    left: -28%;
+}
+
+#symbol {
+    width: 45%;
+    margin-top: 5%;
+}
+
+#container {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
